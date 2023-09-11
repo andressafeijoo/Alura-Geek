@@ -1,6 +1,6 @@
 //GET
 const listaProduto = () => {
-    return fetch('http://localhost:3000/produto')
+    return fetch('https://json-server-zeta-one.vercel.app/')
     .then((resposta) => resposta.json())
     .catch((error) => console.log(error))
 }
@@ -8,7 +8,7 @@ const listaProduto = () => {
 //POST
 
 const criaProduto = (imageurl, nome, preco) => {
-    return fetch('http://localhost:3000/produto', {
+    return fetch('https://json-server-zeta-one.vercel.app/', {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
