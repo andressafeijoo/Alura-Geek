@@ -1,0 +1,86 @@
+{
+  "produto": [
+    {
+      "nome": "Flash",
+      "imageurl": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.webp",
+      "preco": "10000",
+      "id": 7,
+      "description": "undefined"
+    },
+    {
+      "nome": "Capitão America",
+      "imageurl": "https://m.media-amazon.com/images/I/51aqEMfw9KL._AC_SY879_.jpg",
+      "preco": "123",
+      "id": 8,
+      "description": "Apenas um teste!"
+    },
+    {
+      "nome": "Super Man",
+      "imageurl": "https://juguetesdecoleccion.com/wp-content/uploads/muneco-superman-funko-pop.jpg",
+      "preco": "20000",
+      "id": 14,
+      "description": "undefined"
+    },
+    {
+      "nome": "Darth Vader",
+      "imageurl": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp",
+      "preco": "25",
+      "id": 15
+    },
+    {
+      "nome": "Flash",
+      "imageurl": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.webp",
+      "preco": "30000",
+      "id": 16,
+      "description": "25"
+    },
+    {
+      "nome": "Batman",
+      "imageurl": "https://http2.mlstatic.com/D_NQ_NP_640262-MCO47330060660_092021-O.webp",
+      "preco": "60",
+      "id": 17
+    },
+    {
+      "nome": "Hulk",
+      "imageurl": "https://m.media-amazon.com/images/I/516X0YLRV+L._AC_SY879_.jpg",
+      "preco": "30",
+      "id": 18
+    },
+    {
+      "nome": "Hombre araña",
+      "imageurl": "https://http2.mlstatic.com/D_NQ_NP_620343-MLA45333647274_032021-O.webp",
+      "preco": "50",
+      "id": 19
+    },
+    {
+      "nome": "Capitán America",
+      "imageurl": "https://m.media-amazon.com/images/I/51aqEMfw9KL._AC_SY879_.jpg",
+      "preco": "50",
+      "id": 20
+    },
+    {
+      "nome": "Super Man",
+      "imageurl": "https://juguetesdecoleccion.com/wp-content/uploads/muneco-superman-funko-pop.jpg",
+      "preco": "80",
+      "id": 21
+    },
+    {
+      "nome": "Flash",
+      "imageurl": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.webp",
+      "preco": "85",
+      "id": 22
+    },
+    {
+      "nome": "Batman 2",
+      "imageurl": "https://http2.mlstatic.com/D_NQ_NP_640262-MCO47330060660_092021-O.webp",
+      "preco": "60",
+      "id": 23
+    },
+    {
+      "nome": "Sky Walker",
+      "imageurl": "https://geekfanaticos.fbitsstatic.net/img/p/funko-pop-finn-309-the-rise-of-skywalker-a-ascencao-skywalker-star-wars-70146/256629-2.jpg?w=540&h=540&v=no-change&qs=ignore",
+      "preco": "1236",
+      "id": 33
+    }
+  ]
+}

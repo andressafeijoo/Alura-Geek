@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+}
+
+.pagina-loja{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #a2a2a21e;;
+}
+
+.todos-produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 750px;
+    padding-bottom: 30px;
+}
+
+.titulo-secao{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.linha-produto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.produto{
+    height: 270px;
+}
+
+.nome-produto{
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    padding-top: 5px;
+}
+
+.botao-produto{
+    background-color: #2A7AE4;
+    border: none;
+    color: white;
+    width: 164px;
+    height: 51px;
+    font-size: 16px;
+}
+
+.botao-produto:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.login{
+    display: none;
+}
+
+.preco-produto{
+    font-weight: bolder;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width: 768px){
+    .pagina-loja{
+        width: 768px;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .todos-produtos{
+        width: 750px;
+        justify-content: space-between;
+        margin-left: 10px;
+        padding-top: 20px;
+        gap: 0;
+    }
+    .titulo-secao{
+        font-size: 26px;
+    } 
+    .extra{
+        display: none;
+    }
+    .produto img{
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .nav-menu{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+    }
+    .pagina-loja{
+        width: 360px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .linha-produto{
+        width: 340px;
+        margin: 0;
+        padding: 0;
+        gap:10px;
+    }
+    .todos-produtos{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 30px;
+        margin-top: 20px;
+        gap: 20px; 
+    }
+    .titulo-secao{
+        font-size: 22px;
+    } 
+    .extra{
+        display: none;
+    }
+    .produto img{
+        width: 160px;
+    }
+    .botao-produto{
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .produto img{
+        width: 140px;
+    }
+
+}

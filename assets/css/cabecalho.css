@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Raleway:wght@200;300&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* cabeçalho */
+
+.cabecalho{
+    padding: 40px 115px;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.barra-de-pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.barra-de-pesquisa-texto{
+    border:none;
+    background-color: #F5F5F5;
+    width: 300px;
+    height: 24px;
+    border-radius: 20px;
+    padding-left: 20px;
+    color: #A2A2A2;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.botao-login{
+    border: 1px solid #2A7AE4;
+    background-color: white;
+    width: 180px;
+    height: 50px;
+    color: #2A7AE4;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.botao-login:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.lupa{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .cabecalho{
+        padding: 0;
+        width: 760px;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .botao-login{
+        width: 160px;
+        height: 40px;
+    }
+    .nav-menu{
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .cabecalho{
+        width: 360px;
+        height: 72px;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-menu{
+        gap:15px;
+    }
+    .logo{
+        width: 150px;
+    }
+    .barra-de-pesquisa-texto{
+        display: none;
+    }
+    .botao-login{
+        width: 100px;
+        height: 40px;
+    }
+    .lupa{
+        display: block;
+    }
+}

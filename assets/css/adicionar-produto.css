@@ -1,0 +1,125 @@
+.home-add{
+    background-color:  #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+}
+
+.sessao-add{
+    justify-content: center;
+    align-items: center; 
+}
+
+.titulo-add{
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+}
+
+.input-add{
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 1px 0px #00000021;
+    width: 423px;
+    height: 40px;
+    padding: 20px;
+}
+
+.descricao{
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div-input{
+    position: relative;
+}
+
+.div-input label{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 12px;
+}
+
+.div-input input{
+    padding: 25px 0px 0px 10px;
+}
+
+.input-add::placeholder{
+    font-size: 18px;
+    font-weight:600;
+}
+
+.botao-adm{
+    border: 1px solid #2A7AE4;
+    background-color: white;
+    width: 180px;
+    height: 50px;
+    color: #2A7AE4;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.botao-adm:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.botao-add{
+    background-color: #2A7AE4;
+    border: none;
+    color: white;
+    width: 423px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.botao-add:hover{
+    cursor: pointer;
+    color: black;
+}
+
+@media screen and (max-width: 768px){
+    .home-add{
+        width: 100%;
+        height: 500px;
+    }
+    .div-titulo{
+        width: 700px;
+        justify-content: flex-start;
+    }
+    .titulo-add{
+        font-size: 22px;
+        font-weight: 700;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .input-add{
+        width: 700px;
+    }
+    .botao-add{
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .home-add{
+        width: 100%;
+        height: 500px;
+    }
+    .div-titulo{
+        display: flex;
+        justify-content: center;
+    }
+   .input-add{
+    width: 328px;
+   }
+   .botao-add{
+    width: 328px;
+   }
+}
