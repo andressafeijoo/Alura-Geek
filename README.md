@@ -1,6 +1,5 @@
 <h1 align="center">Alura Geek</h1>
 <br>
-<img src="">
 
 # Descrição
 
@@ -23,5 +22,4 @@ Trata-se do desenvolvimento de um site responsivo de um e-commerce.
 <br>
 **JAVASCRIPT**
 <br>
-<img src="">
 
