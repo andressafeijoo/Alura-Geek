@@ -27,11 +27,13 @@ Trata-se do desenvolvimento de um site responsivo de e-commerce.
 
 <br>
 
-- Recurso de Adicionar novos produtos à loja;
+- Recurso para adicionar novos produtos;
 
 <br>
 
 - API fake para hospedar os nossos produtos;
+
+  <br>
 
 # Tecnologias Utilizadas
 
