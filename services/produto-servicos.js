@@ -1,6 +1,6 @@
 //GET
 const listaProduto = () => {
-    return fetch('https://json-serve-teste.vercel.app/')
+    return fetch('https://json-serve-teste-iv6pxzckb-andressafeijoo.vercel.app/produto')
     .then((resposta) => resposta.json())
     .catch((error) => console.log(error))
 }
@@ -8,7 +8,7 @@ const listaProduto = () => {
 //POST
 
 const criaProduto = (imageurl, nome, preco) => {
-    return fetch('https://json-serve-teste.vercel.app/', {
+    return fetch('https://json-serve-teste-iv6pxzckb-andressafeijoo.vercel.app/produto', {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
